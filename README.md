@@ -1,0 +1,1 @@
+This program automatically execute the triangle_test file.
