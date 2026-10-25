@@ -7,5 +7,7 @@ def triangle(a, b, c):
      return 2 # equilateral
  elif a == b or b == c or c == a:
     return 1 # isoceles
+ elif a ** 2 + b ** 2 == c ** 2 or b ** 2 + c ** 2 == a ** 2 or c ** 2 + a ** 2 == b ** 2:
+    return 3 # right triangle
  else:
     return 4
